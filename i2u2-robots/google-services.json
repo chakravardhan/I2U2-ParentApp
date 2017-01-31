@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "995658550677",
+    "firebase_url": "https://i2u2quickblox.firebaseio.com",
+    "project_id": "i2u2quickblox",
+    "storage_bucket": "i2u2quickblox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995658550677:android:4feb961c7e1760d1",
+        "android_client_info": {
+          "package_name": "com.i2u2.parent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995658550677-tv09peuv1kgmt4v18s4ddjugnmq3crtk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.i2u2.parent",
+            "certificate_hash": "A27C49620D050E54B31BE7E93AE3927FD7127504"
+          }
+        },
+        {
+          "client_id": "995658550677-k8co98m43jblp356fbmjc22gia923utr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.i2u2.parent",
+            "certificate_hash": "CB60C85CECF7890C60B0145997E4A27614690BCE"
+          }
+        },
+        {
+          "client_id": "995658550677-gi7kdacocnavsejttbh7361s03qr5lc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjmSRszQ-QNyfvcvsMmci6LXO8T_JhNy0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995658550677-gi7kdacocnavsejttbh7361s03qr5lc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

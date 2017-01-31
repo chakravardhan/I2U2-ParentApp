@@ -1,0 +1,59 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://github.com/QuickBlox/quickblox-android-sdk-releases/raw/master/"
+        }
+    }
+}
+
+ext {
+    compileSdkVersion = 23
+    buildToolsVersion = "23.0.2"
+
+    minSdkVersion = 16
+    targetSdkVersion = 22
+
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+
+    lintAbortOnError = false
+
+    // QuickBlox SDK version
+    qbSdkVersion = '2.5.2'
+
+    // Dependency versions
+    playServicesVersion = '9.0.2'
+    supportV4Version = '23.4.0'
+    appcompatV7Version = '23.4.0'
+    recyclerviewV7Version = '23.4.0'
+    supportAnnotationsVersion = '23.4.0'
+    designVersion = '23.4.0'
+
+    uilVersion = '1.9.0'
+    glideVersion = '3.6.1'
+    pullToRefreshVersion = '3.2.3'
+    stickyListHeaders = '2.7.0'
+    robotoTextViewVersion = '2.4.3'
+    stickersVersion = '0.7.3'
+    crashlyticsVersion = '2.2.2'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}
+
+def makeJar(variant, project) {
+    //empty
+}
